@@ -137,15 +137,7 @@ india-air-quality-analytics-ml/
 - Python 3.10+
 - SQL Server (Express is fine) and [ODBC Driver 18 for SQL Server](https://learn.microsoft.com/sql/connect/odbc/download-odbc-driver-for-sql-server)
 
-### Setup
-```bash
-git clone https://github.com/<your-username>/india-air-quality-analytics-ml.git
-cd india-air-quality-analytics-ml
 
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
 
 ### Configure the database connection
 The notebooks use Windows authentication against a local instance. Change the `server` variable to match your machine:
@@ -268,8 +260,8 @@ The model is accurate for typical hours but weakest on **sudden spikes and drops
 Data Analyst / Data Science enthusiast · Bhubaneswar, India
 
 - LinkedIn: <>
-- GitHub: <>
-- Email: <>
+- GitHub: <https://github.com/saswat925/india-air-quality-analytics-ml/edit/main/README.md>
+- Email: <saswatbetta.aptakam@gmail.com>
 
 If you find this project useful, please ⭐ the repo.
 
